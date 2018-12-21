@@ -1,9 +1,15 @@
 {
-  "thread_group" : {
-    "conn" : 1,
+  "system" : {
+    "db_path" : "/tmp/",
+    "set_id" : 0,
+    "set_size" : 1048576
   },
-  
-  // 网络相关
-  "services":"@import(service.json)"
+
+  "storesvr" : {
+    "ip" : "127.0.0.1",
+    "port" : 11000
+  },
+
+  "services":"@import(sets.json)"
 }
 

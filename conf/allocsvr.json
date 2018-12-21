@@ -1,9 +1,9 @@
 {
-  "thread_group" : {
-    "conn" : 1,
+  "allocsvr" : {
+    "ip" : "127.0.0.1",
+    "port" : 10000
   },
-  
-  // 网络相关
-  "services":"@import(service.json)"
+
+  "services":"@import(sets.json)"
 }
 
