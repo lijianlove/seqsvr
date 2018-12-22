@@ -4,6 +4,6 @@
     "port" : 10000
   },
 
-  "services":"@import(sets.json)"
+  "sets":"@import(sets.json)"
 }
 
